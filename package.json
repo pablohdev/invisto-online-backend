@@ -5,7 +5,7 @@
   "description": "backend from application invisto online developed on MegaHack",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "ENV_SILENT=true node server.js",
     "test": "node ace test"
   },
   "keywords": [
