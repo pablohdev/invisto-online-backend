@@ -1,7 +1,6 @@
 'use strict'
 
-const { Ignitor } = require('@adonisjs/ignitor')
-
+const { Ignitor } = require('@adonisjs/ignitor');
 
 
 new Ignitor(require('@adonisjs/fold'))

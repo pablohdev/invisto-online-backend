@@ -24,3 +24,19 @@ Route.get('/user', 'PersonController.index');
 Route.get('/user/:id', 'PersonController.show');
 Route.post('/user', 'PersonController.insert')
 Route.put('/user/:id', 'PersonController.store')
+
+Route.post('/user/login', 'PersonController.login')
+
+Route.get('/agency', 'AgencyController.index');
+Route.get('/agency/:id', 'AgencyController.show');
+Route.post('/agency', 'AgencyController.insert')
+Route.put('/agency/:id', 'AgencyController.store')
+Route.delete('/agency/:id', 'AgencyController.destroy')
+
+Route.get('/lead', 'LeadController.index');
+Route.get('/lead/:id', 'LeadController.show');
+Route.post('/lead', 'LeadController.insert')
+
+Route.get('/commentary', 'CommentController.index');
+Route.get('/commentary/:id', 'CommentController.show');
+Route.post('/commentary', 'CommentController.insert')
